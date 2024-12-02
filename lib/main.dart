@@ -105,7 +105,7 @@ class _CalculatorState extends State<Calculator> {
                   buildButton("C", Colors.grey.shade400),
                   buildButton("+/-", Colors.grey.shade400),
                   buildButton("%", Colors.grey.shade400),
-                  buildButton("/", Colors.orange.shade600),
+                  buildButton("/", const Color.fromARGB(255, 250, 141, 7)),
                 ],
               ),
               Row(
